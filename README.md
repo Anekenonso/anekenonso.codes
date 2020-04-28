@@ -9,7 +9,7 @@
 
 ### 2. Create a Gridsome project
 
-1. `gridsome create my-blog https://github.com/anekenonso/gridsome-minimal-blog` to install default starter
+1. `gridsome create my-blog https://github.com/anekenonso/anekenonso.codes` to install default starter
 2. `cd my-blog` to open the folder
 3. `gridsome develop` to start a local dev server at `http://localhost:8080`
 4. Happy coding 🎉🙌
