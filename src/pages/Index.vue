@@ -46,6 +46,11 @@ query {
 </page-query>
 
 <style>
+.body{
+ overflow-x: hidden;
+ width: 100vh;
+ height: 100vh;
+}
 .header {
   font-family: "Stylish";
   font-size: 15px;

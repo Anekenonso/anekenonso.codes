@@ -4,7 +4,7 @@
     <g-link to="/" class="link">  &larr; Go Back</g-link>
     <div class="post-title">
       <h1>{{$page.post.title}}</h1>
-      <p class="post-date"> {{ $page.post.date}} | {{$page.post.timeToRead}} min read</p>
+      <p class="post-date"> {{ $page.post.date}} | {{ $page.post.tags}} | {{$page.post.timeToRead}} min read</p>
     </div>
     <div class="post-content">
       <p v-html="$page.post.content" />
@@ -28,6 +28,7 @@ query Post ($path: String!) {
 
 .post-title {
   text-align: center;
+  text-emphasis: none;
   font-size: 10px;
   line-height: 2px;
   padding: 1em 0;
@@ -36,6 +37,11 @@ query Post ($path: String!) {
 
 .post-date {
   font-size: 16px;
+  font-weight: 400;
+}
+
+.post-tags {
+  font-size: 15px;
   font-weight: 400;
 }
 

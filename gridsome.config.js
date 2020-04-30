@@ -6,7 +6,7 @@
 
 module.exports = {
   siteName: 'Anekenonso.codes',
-  siteDescription: "Okenwa kenneth is a software developer, based in Enugu, Nigeria",
+  siteDescription: "Personal Blog by okenwa Kenneth. Kenneth is a software Developer and he is passionate about cyber security and how to make the web safe for everyone.",
   plugins: [
     {
       use: '@gridsome/source-filesystem',
